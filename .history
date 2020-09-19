@@ -1,0 +1,128 @@
+ls
+clear
+ls
+echo $shell
+echo $SHELL
+whoami
+echo $TERM
+echo $USER
+echo '$USER'
+echo "mi usuario es $USER"
+echo "hoy es el dia ´date´"
+echo "hoy es el dia `date`"
+echo "a\nb"
+echo "a\tb"
+clear
+echo this is echo of echo
+cd home/
+cd..
+cd Data\shell
+pwd
+cd home\dsc\Data
+cd ~
+cd Data/shell
+cd ~
+cd ls
+ls
+ls -a
+ls -l
+ls -la
+mkdir new_folder
+ls -a
+rmdir new_folder
+ls -l
+clear
+git clone https:\\github.com\igoraramb\DS_CL_files.git
+git clone https:\\github.com\IgorAramb\DS_CL_files.git
+git clone https://github.com/IgorAramb/DS_CL_files.git
+ls
+cd DS_CL_files
+rm README.md
+git reset HEAD --hard
+ls
+man ls
+git config --global user.name 'Pablo Goya'
+git config --global user.email "palvgoya@gmail.com"
+cd ~
+git clone https://github.com/palvgoya/master_kschool.git
+cd master_kshool
+cd master_kschool
+ls
+cat README.md
+touch new_foler
+touch whatafuck
+git status
+git add new_foler
+git status
+git commit -m 'Implement a random forest'
+git push
+git //
+git --
+git golbal
+git global
+git config --global user.name "Pablo Goya"
+git config --global user.email "palvgoya@gmail.com"
+cat .gitconfig
+gedit .gitconfig
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/palvgoya/master_kschool.git
+git clone https://github.com/palvgoya/master_kschool.git Otro_dir_name
+ls
+git clone https://github.com/palvgoya/master_kschool.git ../Pictures/nombre_repo_2
+ls ../Pictures
+ls
+git init Master_class_loca_start
+ll
+cd Master_class_loca_start
+git status
+ls -a
+ll
+touch first_file.txt
+ll
+touch second_file
+ll
+edit first_file.txt
+which gedit
+gedit first_file.txt
+cd Repos/Master_class_loca_start
+ls
+gedit first_file.txt
+git status
+git add fist_file.txt
+git add first_file.txt
+git add second_file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit fist_file.txt
+gedit first_file.txt
+git status
+git add -u
+git status
+git commit
+rm -rf .fist_file.txt
+git status
+ls
+rm -rf fist_file.txt
+ls
+git status
+rm -rf .first_file.txt.swp
+ls
+git status
+git log
+git remote add origin https://github.com/palvgoya/Local_init.git
+git remote -v
+git branch -M master
+git push -u origin master
+cd
+cat .history
+cd Repos
+git clone https://github.com/palvgoya/Code_history.git
+git add .history
+ls
+cd Code_history
+git add .history
+cp ~/.history .
