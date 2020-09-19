@@ -194,3 +194,149 @@ cd ..
 ls
 cd Code_history
 cp ~/.history .
+git add -u
+git commit -m "Quick excersise"
+cd ..
+ls
+cd first_dir
+ls
+mv text_file.txt sub2/text_file.txt.2
+cd sub2
+ls
+mv text_file.txt.2 ~/Repos/first_dir/text_file.txt.backup
+cd ..
+ls
+rm -r sub2
+ls
+cd
+ll
+alias
+alias gl='git log'
+alias gc='git commit -m'
+alias
+ll -a
+cp .zshrc .backup
+gedit .zshrc
+wchi ll
+which ll
+whic gc
+which gc
+which python
+whereis python
+sudo which python
+echo Thats All Folks
+git add .history
+cd Repos
+ls
+cd Code_history
+cd Data/opentraveldata
+cd
+cd Data/opentraveldata
+ll
+head optd_aircraft.csv
+head -3 optd_air
+head -3 optd_aircraft.csv
+wc optd_aircraft.csv
+cat optd_aircraft.csv 
+wc optd_aircraft.csv
+head -3 optd_aircraft.csv
+head -3 optd_aircraft.csv | wc
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | head -8
+cat -n optd_aircraft.csv | head -8 | tail -1
+echo Test
+echo Test >test_file
+ls
+cat test_file
+echo Test2 >test_file
+cat test_file
+echo Test3 >>test_file
+cat test_file
+<test_file wc
+cat -n  | head -5 | wc | \
+exit
+cd Data/shell
+cat -n Finn.txt | head -5 | wc 
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+ls
+echo $date
+echo $Date
+date
+user
+alias
+echo 'This file was created on $date by $' >new_file
+ls
+cd new_file
+new_file
+cat new_file
+echo "This file was created by KSchool on $(date)" >new_file
+cat new_file
+cd
+find
+find .Repos
+find ./Repos
+find ./Repos | wc
+find . -name "text_file"
+find . -iname "text_file"
+find . -type f -iname "text_file.txt"
+find . -type d -iname "text_file.txt"
+find . -maxdepth 2 -type f -iname "text_file.txt"
+find . -mindepth 2 -type f -iname "text_file.txt"
+find . -mindepth 2 -type f -iname "text_file*"
+find . -type f "*.csv"
+find . -type f -iname  "*.csv"
+find . -type f -iname  "*.csv" | wc
+find . -type f -iname  "*.csv" -exec echo "Found One" \;
+cd Data
+find . -type f -iname  "*.csv" -exec echo "Found One" \;
+find . -type f -iname  "*.csv" -exec ls -l {} \;
+find . -type f -iname  "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname  "*.csv" -exec ls -l {} \; |wc
+find . -type f -iname  "*.csv" -exec zsh -c "ls -l {} |wc" \;
+find . 60-$(date)<0
+find . -mindepth 2 |wc=0
+find . -mindepth 2 
+find . -type f -mindepth 2 |wc=0
+find . -mindepth 2 -type f |wc=0
+cd
+find . -mindepth 2 -type f |wc=0
+find . -mindepth 2 -type f mtime -n = 0.042
+find . -mindepth 2 -type f -mtime -n = 0.042
+find . -mindepth 2 -type f -mmin 60
+find . -type f -mmin 60
+find . -type f empty
+find . -type f -empty
+find . -mindepth 2 -type f -empty
+find . -mindepth 2 -type f -empty ! perm 777
+find . -mindepth 2 -type f -empty ! -perm 777
+find . -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 {} \;
+clear
+find .\Data\ -type d
+cd Data
+find . -type d
+find . -type d exec "ls -l |wc"
+find . -type d -exec "ls -l |wc"
+find . -type d -exec "ls -l |wc"\;
+find . -type d -exec ls -l |wc \;
+find . -type d -exec "ls -lS" \;
+find . -type d \; -exec "ls -lS" \;
+find . -type d ; -exec "ls -lS" \;
+find . -type d ; -exec zsh "ls -lS" \;
+find . -exec zsh "ls -lS" \;
+find . -type d -exec "ls -l {}" 
+find . -type d -exec "ls -l {}" \;
+find . -type d -exec "ls -l {}|wc" \;
+find . -type d -exec ls -l {} \;
+find . -mindepth 2 -type d -exec ls -l {} \;
+find . -mindepth 1 -type d -exec ls -l {} \;
+find . -mindepth 1 -type d -exec ls -l -S {} \; 
+find . -mindepth 1 -type d -exec ls -lS {} \; 
+find . -mindepth 1 -type d -exec zsh -c  "ls -lSh {}" | head -3 \; 
+find . -mindepth 1 -type d ;-exec zsh -c "ls -lSh {} | head -3" \; 
+find . -mindepth 1 -type d -exec zsh -c "ls -lSh {} | head -3" \; 
+cd ..
+cd Repos/
+ls
+cd Code_history
+cp ~/.history .
