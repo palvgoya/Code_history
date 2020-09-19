@@ -126,3 +126,71 @@ ls
 cd Code_history
 git add .history
 cp ~/.history .
+git status
+ll
+ls -a
+git add .history
+git commit -m "first 5h of master"
+git push
+cd ..
+rkdir first_dir
+mkdir first_dir
+ls
+cd Repos/first_dir
+cd
+cd Repos
+cd first_dir
+touch text_file.txt
+ls
+ll
+chmod 776 text_file.txt
+ll
+mkdir sub1 sub2 sub3
+ls
+cp text_file.txt sub1
+cd sub1
+ls
+mv text_file.txt sub2 text_file.txt.2
+mv text_file.txt text_file.txt.2 sub2
+mv text_file.txt sub2
+cd
+cd Repos/first_dir/sub2
+ls
+cd ..
+sub1
+ls
+cd sub1
+ls
+rm sub2
+touch text_file.txt
+ls
+chmod text_file.txt 776
+ls
+chmod 776 text_file.txt
+ls
+ll
+cd ..
+cp sub1 sub3
+cp -r sub1 sub3
+ls
+cd sub3
+ls
+cd ..
+rm -rf sub2
+ls
+mkdir sub2
+ls
+cd sub1
+ls
+mv text_file.txt sub2/text_file.txt.2
+cd ..
+cd sub1
+ls
+mv sub1/text_file.txt sub2/text_file.txt.2
+cp ~/history .
+cp ~/.history .
+cp ~/.history
+cd ..
+ls
+cd Code_history
+cp ~/.history .
